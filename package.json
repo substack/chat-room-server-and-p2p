@@ -1,0 +1,16 @@
+{
+  "name": "chat-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify browser.js > public/bundle.js",
+    "watch": "watchify browser.js -o public/bundle.js -dv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket-stream": "^3.1.0"
+  }
+}
