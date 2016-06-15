@@ -11,6 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "websocket-stream": "^3.1.0"
+    "ecstatic": "^1.4.1",
+    "end-of-stream": "^1.1.0",
+    "signalhub": "^4.5.1",
+    "split2": "^2.1.0",
+    "through2": "^2.0.1",
+    "webrtc-swarm": "^2.4.0",
+    "websocket-stream": "^3.1.0",
+    "yo-yo": "^1.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
   }
 }
